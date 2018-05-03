@@ -1,1 +1,2 @@
-<h1>Puppieslist - a chrome extension to talk to the puppy living inside craigslist </h1>
+<h1>Puppieslist</h1>
+<h4> - a chrome extension to talk to the puppy living inside craigslist</h4>
