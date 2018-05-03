@@ -1,0 +1,35 @@
+
+{
+  "manifest_version": 2,
+  "name": "Tong_Final",
+  "version": "0.1",
+
+  "background":{
+    "scripts":["Pizzicato.js","background.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [{
+    "matches": [
+      "https://newyork.craigslist.org/"
+    ],
+
+    "js": [
+      "p5.min.js",
+      "p5.dom.min.js",
+      "p5.sound.js",
+      "p5.sound.min.js",
+      "p5.speech.js",
+      "jquery.js",
+      "sketch.js"
+    ],
+    "css":[
+      "csshake.min.css",
+      "animate.css"
+    ]
+  }],
+  "permissions": [
+          "tabs",
+          "activeTab"
+        ]
+}
